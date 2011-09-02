@@ -1,0 +1,24 @@
+{
+  "name": "lineup",
+  "author": "Tom Carter <tom@tcjr.org>",
+  "description": "A simple widget for displaying multiple venue show lineup data.",
+  "licenses": [
+     {
+         "type": "TCFREE",
+         "url": "http://github.com/tcjr/lineup/raw/master/LICENSE"
+     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tcjr/lineup",
+    "web": "http://github.com/tcjr/lineup"
+  },
+  "dependencies": {
+    "dojo": "1.7.0b5",
+    "put-selector": "0.1.2"
+  },
+  "directories": {
+    "lib": "."
+  },
+  "main": "./Cubes"
+}

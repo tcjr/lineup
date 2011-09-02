@@ -1,0 +1,86 @@
+.lineup-cubes table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse:collapse;
+    font-family: "Arial";
+}
+
+.lineup-cubes .cubes-body {
+  background-image: url('bg-grey.png');
+}
+
+.lineup-cubes .cubes-header th {
+  /*style*/
+  font-family: "Arial";
+  font-size: 1.6em;
+  font-weight: 900;
+  /*structure*/
+  height: 3.2em;
+  padding: 0 0 0.5em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.lineup-cubes .cubes-header th.time {
+  width: 5em;
+}
+
+.lineup-cubes .cubes-body td.venue {
+  border: medium none !important;
+  padding: 0 !important;
+  vertical-align: top;
+}
+
+.lineup-cubes .cubes-body td.venue .artist-lineup {
+  position: relative;
+}
+
+.lineup-cubes ul.schedule-times {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  text-align: center;
+  list-style: none outside none;
+}
+
+.lineup-cubes ul.schedule-times li {
+  height: 30px;
+  padding: 0 0 0 0.5em;
+  text-align: left;
+}
+
+.lineup-cubes .artist-lineup {
+  background-color: #FF0000;
+}
+
+.lineup-cubes .artist-lineup .show-box {
+  /*style*/
+  background-color: #DADCDE;
+  color: #FFFFFF;
+  
+  /*structure*/
+  position: absolute;
+  /* margin: 0 3px 3px; */
+  margin: 0 0 0;
+  width: 98%;
+}
+
+.lineup-cubes .artist-lineup .show-container {
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  width: 98%;
+}
+
+.lineup-cubes .artist-lineup .show-title {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.4em;
+}
+
+.lineup-cubes .artist-lineup .show-time {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2em;
+}
