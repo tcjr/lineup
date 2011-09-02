@@ -6,7 +6,7 @@
 }
 
 .lineup-cubes .cubes-body {
-  background-image: url('bg-grey.png');
+  background-image: url('images/bg-grey.png');
 }
 
 .lineup-cubes .cubes-header th {
@@ -47,6 +47,7 @@
   height: 30px;
   padding: 0 0 0 0.5em;
   text-align: left;
+  font-size: 0.8em;
 }
 
 .lineup-cubes .artist-lineup {
@@ -56,7 +57,7 @@
 .lineup-cubes .artist-lineup .show-box {
   /*style*/
   background-color: #DADCDE;
-  color: #FFFFFF;
+  color: #000000;
   
   /*structure*/
   position: absolute;
